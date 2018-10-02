@@ -22,13 +22,12 @@ p.specialization {
 }
 
 .soc-link-logo {
-    display: block;
-    height: 48px;
-    width: 48px;
-    box-shadow: 12px;
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
 }
 
-.copyright {
+footer {
     font-family: 'Comfortaa', sans-serif;
     font-size: 16px;
     text-align: center;
@@ -37,12 +36,29 @@ p.specialization {
     bottom: 0;
 }
 
-div.header {
+section {
+    display: block;
+    margin: auto;
+    height: 32px;
+    width: 9%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     animation-name: paslash;
     animation-duration: 700ms;
     -webkit-animation-name: paslash;
     -webkit-animation-duration: 700ms;
+}
+
+header {
+    margin-top: 30px;
+    animation-name: paslash;
+    animation-duration: 700ms;
+    -webkit-animation-name: paslash;
+    -webkit-animation-duration: 700ms;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 @keyframes paslash {
@@ -63,6 +79,6 @@ div.soc-links {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 32px;
-    width: 32px;
+    width: 150px;
+    height: 150px;
 }
