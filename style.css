@@ -1,10 +1,10 @@
-p.ism-sharif {
+#fullname {
     font-family: 'Comfortaa', sans-serif;
     font-size: 35px;
     text-align: center;
 }
 
-p.specialization {
+#specialization {
     font-family: 'Comfortaa', sans-serif;
     margin-top: -30px;
     font-size: 18px;
@@ -12,13 +12,30 @@ p.specialization {
     -webkit-text-fill-color: gray;
 }
 
-.img-circle {
+#avatar-img {
     display: block;
     border-radius: 60px;
     margin-right: auto;
     margin-left: auto;
     height: 120px;
     width: 120px;
+    box-shadow: 0px 1px 5px 1px #8d848483;
+    animation-name: bosilish;
+    animation-duration: 200ms;
+    -webkit-animation-name: bosilish;
+    -webkit-animation-duration: 200ms;
+}
+
+@keyframes bosilish {
+    0% {box-shadow: 1px 1px #888888; }
+    50% {box-shadow: 0.5px 0.5px #888888; }
+    100% {box-shadow: 0.5px 0.5px #944a4a; }
+}
+
+@-webkit-keyframes bosilish {
+    0% {box-shadow: 1px 1px #888888; }
+    50% {box-shadow: 0.5px 0.5px #888888; }
+    100% {box-shadow: 0.5px 0.5px #944a4a; }
 }
 
 .soc-link-logo {
