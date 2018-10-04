@@ -22,22 +22,12 @@
     height: 120px;
     width: 120px;
     box-shadow: 0px 1px 5px 1px #8d848483;
-    animation-name: bosilish;
-    animation-duration: 200ms;
-    -webkit-animation-name: bosilish;
-    -webkit-animation-duration: 200ms;
+
 }
 
-@keyframes bosilish {
-    0% {box-shadow: 1px 1px #888888; }
-    50% {box-shadow: 0.5px 0.5px #888888; }
-    100% {box-shadow: 0.5px 0.5px #944a4a; }
-}
-
-@-webkit-keyframes bosilish {
-    0% {box-shadow: 1px 1px #888888; }
-    50% {box-shadow: 0.5px 0.5px #888888; }
-    100% {box-shadow: 0.5px 0.5px #944a4a; }
+#avatar-img:hover {
+    box-shadow: 0px 0px 0px 0px #ffffff;
+    filter: brightness(0.95);
 }
 
 .soc-link-logo {
