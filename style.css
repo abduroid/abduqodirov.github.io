@@ -2,14 +2,16 @@
     font-family: 'Comfortaa', sans-serif;
     font-size: 35px;
     text-align: center;
+    transform: scale(1, 1.1);
 }
 
 #specialization {
     font-family: 'Comfortaa', sans-serif;
-    margin-top: -30px;
+    margin-top: -25px;
     font-size: 18px;
     text-align: center;
     -webkit-text-fill-color: gray;
+    transform: scale(1, 1.05);
 }
 
 #avatar-img {
