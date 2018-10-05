@@ -37,12 +37,24 @@
 }
 
 footer {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
     font-family: 'Comfortaa', sans-serif;
     font-size: 16px;
+    animation-name: tepagachiqish;
+    -webkit-animation-name: tepagachiqish;
+    animation-duration: 300ms;
+    -webkit-animation-duration: 300ms;
     text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+}
+
+@keyframes tepagachiqish {
+    0% {bottom: -15px; opacity: 0.25; }
+    25% {bottom: -10px; opacity: 0.50; }
+    50% {bottom: -5px; opacity: 0.75; }
+    75% {bottom: 0px; opacity: 1; }
+    100% {bottom: 5px; opacity: 1;}
 }
 
 section {
@@ -90,4 +102,30 @@ div.soc-links {
     margin-right: auto;
     width: 150px;
     height: 150px;
+}
+
+nav {
+    position: fixed;
+    top: 370px;
+    left: 41.5%;
+    right: 41.5;
+    height: 100%;
+    width: 100%;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 22px;
+    -webkit-text-fill-color: black;
+    animation-name: ongdankelish;
+    -webkit-animation-name: ongdankelish;
+    animation-duration: 400ms;
+    -webkit-animation-duration: 400ms;
+}
+
+@keyframes ongdankelish {
+    from {left: 150%;}
+    to {left: 41.5;}
+}
+
+@-webkit-keyframes ongdankelish {
+    from {left: 150%;}
+    to {left: 41.5;}
 }
